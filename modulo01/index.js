@@ -2,7 +2,9 @@ const express = require('express');
 
 const server = express();
 
-server.get('/curso', (req, res) =>{ 
+server.get('/curso', (req, res) =>{
+  
+  const nome = req.query.nome;
   
   return res.json({curso : 'Node JS'}); 
 });
