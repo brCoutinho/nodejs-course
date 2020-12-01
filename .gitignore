@@ -1,4 +1,3 @@
-*.json
 *.docx
-./node_modules
+/node_modules
 
